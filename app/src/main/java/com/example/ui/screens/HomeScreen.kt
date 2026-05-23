@@ -23,13 +23,12 @@ import com.example.ui.MainViewModel
 import com.example.ui.theme.LamboGold
 import com.example.ui.theme.LamboGoldLight
 import com.example.ui.theme.LamboRed
-import kotlin.random.Random
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun HomeScreen(viewModel: MainViewModel, navController: NavController) {
     val cars = viewModel.allCars
-    val carOfTheDay = remember { cars.random(Random(System.currentTimeMillis() / 86400000)) }
+    val carOfTheDay = remember { cars.random() }
 
     Scaffold(
         topBar = {
