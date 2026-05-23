@@ -1,0 +1,6 @@
+{
+  "name": "Lamborghini Hub",
+  "description": "A premium experience for Lamborghini enthusiasts with models, sounds, and history.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
