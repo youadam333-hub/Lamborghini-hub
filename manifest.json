@@ -1,36 +1,30 @@
 {
   "id": "/?utm_source=pwa",
-  "name": "Lamborghini Hub",
+  "name": "Lamborghini Hub & Reels",
   "short_name": "LamboHub",
-  "description": "The ultimate lifestyle app for Lamborghini enthusiasts. Explore exclusive car models, detailed performance specs, and thrilling high-speed video reels.",
-  "start_url": "/",
-  "scope": "/",
+  "description": "Discover the luxury world of Lamborghini. Explore all car models, technical specifications, and enjoy hypercar short videos and high-octane reels.",
   "lang": "en",
   "dir": "ltr",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
-  "display_override": [
-    "standalone",
-    "minimal-ui"
-  ],
+  "display_override": ["standalone", "minimal-ui", "fullscreen"],
+  "orientation": "portrait-primary",
   "background_color": "#000000",
   "theme_color": "#FFCC00",
-  "categories": [
-    "entertainment",
-    "sports",
-    "lifestyle"
-  ],
+  "categories": ["entertainment", "sports", "utilities"],
   "icons": [
     {
-      "src": "assets/icon-192x192.png",
+      "src": "icons/icon-192x192.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
     },
     {
-      "src": "assets/icon-512x512.png",
+      "src": "icons/icon-512x512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "maskable"
     }
   ],
   "screenshots": [
@@ -39,42 +33,31 @@
       "sizes": "1080x1920",
       "type": "image/png",
       "form_factor": "narrow",
-      "label": "Lamborghini Hub Mobile Experience"
+      "label": "Lamborghini Reels Screen"
     },
     {
       "src": "assets/screenshot-desktop.png",
       "sizes": "1920x1080",
       "type": "image/png",
       "form_factor": "wide",
-      "label": "Lamborghini Hub Desktop Experience"
+      "label": "Lamborghini Models Showcase"
     }
   ],
   "shortcuts": [
     {
-      "name": "Latest Reels",
+      "name": "Watch Reels",
       "short_name": "Reels",
-      "description": "Watch high-speed Lamborghini reels",
-      "url": "/reels",
-      "icons": [
-        {
-          "src": "assets/icon-192x192.png",
-          "sizes": "192x192",
-          "type": "image/png"
-        }
-      ]
+      "description": "Jump straight to Lamborghini short videos",
+      "url": "/#reels",
+      "icons": [{ "src": "icons/icon-192x192.png", "sizes": "192x192" }]
     },
     {
       "name": "Car Models",
       "short_name": "Models",
-      "description": "Explore exclusive Lamborghini models",
-      "url": "/models",
-      "icons": [
-        {
-          "src": "assets/icon-192x192.png",
-          "sizes": "192x192",
-          "type": "image/png"
-        }
-      ]
+      "description": "Check out Lamborghini fleet and specs",
+      "url": "/#models",
+      "icons": [{ "src": "icons/icon-192x192.png", "sizes": "192x192" }]
     }
   ]
 }
+
