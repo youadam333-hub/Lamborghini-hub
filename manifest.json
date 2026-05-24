@@ -1,11 +1,24 @@
 {
+  "id": "/?utm_source=pwa",
   "name": "Lamborghini Hub",
   "short_name": "LamboHub",
   "description": "The ultimate lifestyle app for Lamborghini enthusiasts. Explore exclusive car models, detailed performance specs, and thrilling high-speed video reels.",
   "start_url": "/",
+  "scope": "/",
+  "lang": "en",
+  "dir": "ltr",
   "display": "standalone",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
   "background_color": "#000000",
   "theme_color": "#FFCC00",
+  "categories": [
+    "entertainment",
+    "sports",
+    "lifestyle"
+  ],
   "icons": [
     {
       "src": "assets/icon-192x192.png",
@@ -25,13 +38,43 @@
       "src": "assets/screenshot-mobile.png",
       "sizes": "1080x1920",
       "type": "image/png",
-      "form_factor": "narrow"
+      "form_factor": "narrow",
+      "label": "Lamborghini Hub Mobile Experience"
     },
     {
       "src": "assets/screenshot-desktop.png",
       "sizes": "1920x1080",
       "type": "image/png",
-      "form_factor": "wide"
+      "form_factor": "wide",
+      "label": "Lamborghini Hub Desktop Experience"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Latest Reels",
+      "short_name": "Reels",
+      "description": "Watch high-speed Lamborghini reels",
+      "url": "/reels",
+      "icons": [
+        {
+          "src": "assets/icon-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Car Models",
+      "short_name": "Models",
+      "description": "Explore exclusive Lamborghini models",
+      "url": "/models",
+      "icons": [
+        {
+          "src": "assets/icon-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
     }
   ]
 }
